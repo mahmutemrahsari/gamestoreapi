@@ -9,7 +9,7 @@ Content-Type: application/json
 
  {
    "name" : "Soulcalibur",  
-    "genreId":3,  
+    "genreId":4,  
     "price":34.99,  
     "releaseDate":"1999-09-08"
  }  
