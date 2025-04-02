@@ -1,0 +1,40 @@
+GET http://localhost:5007/games
+
+###
+GET http://localhost:5007/games/5
+
+###
+POST http://localhost:5007/games
+Content-Type: application/json
+
+ {
+   "name" : "Soulcalibur",  
+    "genreId":3,  
+    "price":34.99,  
+    "releaseDate":"1999-09-08"
+ }  
+
+###
+POST http://localhost:5007/games
+Content-Type: application/json
+
+ {
+    "price":34.99,  
+    "releaseDate":"1999-09-08"
+ }  
+
+
+###
+PUT http://localhost:5007/games/1
+Content-Type: application/json
+
+  {
+    "id": 1,
+    "name": "Street Fighter 2 Turbo",
+    "genre": "Fighting",
+    "price": 9.99,
+    "releaseDate": "1992-07-05"
+  }
+
+###
+DELETE http://localhost:5007/games/1
